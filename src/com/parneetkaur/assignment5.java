@@ -1,21 +1,21 @@
 package com.parneetkaur;
 import javax.swing.*;
 public class assignment5 {
-
+//https://github.com/parisandhu/parisandhu
         private final static int NUMBER_OF_ATTEMPT_EXCEEDED = 0;
         private final static int SUCCESS = 1;
         private final static int CANCELED = 2;
         public static void main(String [] args){
 
-            // creating object
+
             weekseven weekseven = new weekseven();
             Object [] inputOptions = weekseven.getInputOptions(); // Input options for JOptionPane Dialog
 
-            // showing correct credential
+
             JOptionPane.showMessageDialog(null, "Credential\n\nFirst Name = parneet\n\n Last Name = kaur\n\n");
             int flag = validateCredential();
 
-            // checking if credential valid
+
             if(flag == NUMBER_OF_ATTEMPT_EXCEEDED){
                 JOptionPane.showMessageDialog(null, "Tries are Exceeded!");
             }else if(flag == SUCCESS){
